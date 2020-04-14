@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.himanshumauri.nallebache">
+
+    <application
+        android:name=".OfflineCapability"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".WriteUs.QuoteWriteUs"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".WriteUs.JokesWriteUs"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".WriteUs.ShayariWriteUs"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".WriteUs.StoryWriteUs"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".Shairy.LoveShayari" />
+        <activity android:name=".Story.HindiStory" />
+        <activity android:name=".Story.MotivationalStory" />
+        <activity android:name=".Shairy.OtherShayari" />
+        <activity android:name=".Shairy.LifeShayari" />
+        <activity android:name=".Shairy.DostiShayari" />
+        <activity android:name=".Shairy.BewafaShayari" />
+        <activity android:name=".Jokes.SharabiJokes" />
+        <activity android:name=".Jokes.SantaBantaJokes" />
+        <activity android:name=".Jokes.HusbandWifeJokes" />
+        <activity android:name=".Jokes.HindiJokes" />
+        <activity android:name=".ItemFunction" />
+        <activity android:name=".Quote.HindiQuote" />
+        <activity android:name=".Quote.EducationQuote" />
+        <activity android:name=".Quote.KnowledgeQuote" />
+        <activity android:name=".Quote.LeadershipQuote" />
+        <activity android:name=".Quote.MotivationQuote" />
+        <activity android:name=".Quote.SuccessQuote" />
+        <activity android:name=".Story.ReadStory" />
+        <activity android:name=".Story.KidsStory" />
+        <activity
+            android:name=".Contact.FeedbackMain"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".WriteUs.WriteUsMain"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Story.StoryMain"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Quote.QuoteMain"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Jokes.JokesMain"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Shairy.ShayariMain"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

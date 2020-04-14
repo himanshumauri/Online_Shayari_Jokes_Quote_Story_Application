@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quote.QuoteMain">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="INSPIRATIONAL QUOTE"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:background="#8BC34A"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+    <!--___________________Start Category Holder___________________-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:id="@+id/hindiquote"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_row"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/icon_hindiquote"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="हिंदी कोट्स"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:id="@+id/hindikeywords"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize = "20dp"
+                    android:textAlignment = "center"
+                    android:ellipsize = "marquee"
+                    android:fadingEdge = "horizontal"
+                    android:marqueeRepeatLimit = "marquee_forever"
+                    android:scrollHorizontally = "true"
+                    android:textColor = "#FFFFFF"
+                    android:text = "#विचार #Hindi #प्रेरणादायक #सफलता #Motivate"
+                    android:singleLine = "true"
+                    android:gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/educationquote"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_row"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/icon_educationquote"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="EDUCATION"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:id="@+id/educationkeywords"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize = "20dp"
+                    android:textAlignment = "center"
+                    android:ellipsize = "marquee"
+                    android:fadingEdge = "horizontal"
+                    android:marqueeRepeatLimit = "marquee_forever"
+                    android:scrollHorizontally = "true"
+                    android:textColor = "#FFFFFF"
+                    android:text = "#education #student #inspiration"
+                    android:singleLine = "true"
+                    android:gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/knowledgequote"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_row"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/icon_knowledgequote"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KNOWLEDGE"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:id="@+id/knowledgekeywords"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize = "20dp"
+                    android:textAlignment = "center"
+                    android:ellipsize = "marquee"
+                    android:fadingEdge = "horizontal"
+                    android:marqueeRepeatLimit = "marquee_forever"
+                    android:scrollHorizontally = "true"
+                    android:textColor = "#FFFFFF"
+                    android:text = "#knowledge #student #skill #capability #wisdom"
+                    android:singleLine = "true"
+                    android:gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/leadershipquote"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_row"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/icon_leadershipquote"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LEADERSHIP"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:id="@+id/leadershipkeywords"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize = "20dp"
+                    android:textAlignment = "center"
+                    android:ellipsize = "marquee"
+                    android:fadingEdge = "horizontal"
+                    android:marqueeRepeatLimit = "marquee_forever"
+                    android:scrollHorizontally = "true"
+                    android:textColor = "#FFFFFF"
+                    android:text = "#leadership #power #guidance #sovereignty"
+                    android:singleLine = "true"
+                    android:gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/motivationquote"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_row"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/icon_motivationquote"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MOTIVATION"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:id="@+id/motivationkeywords"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize = "20dp"
+                    android:textAlignment = "center"
+                    android:ellipsize = "marquee"
+                    android:fadingEdge = "horizontal"
+                    android:marqueeRepeatLimit = "marquee_forever"
+                    android:scrollHorizontally = "true"
+                    android:textColor = "#FFFFFF"
+                    android:text = "#motivation #inspire #impulse #ambition #getupandgo"
+                    android:singleLine = "true"
+                    android:gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/successquote"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_row"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/icon_successquote"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SUCCESS"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:id="@+id/successkeywords"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize = "20dp"
+                    android:textAlignment = "center"
+                    android:ellipsize = "marquee"
+                    android:fadingEdge = "horizontal"
+                    android:marqueeRepeatLimit = "marquee_forever"
+                    android:scrollHorizontally = "true"
+                    android:textColor = "#FFFFFF"
+                    android:text = "#success #achivement #porosperity #goal"
+                    android:singleLine = "true"
+                    android:gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+    <!--___________________End Category Holder___________________-->
+
+</LinearLayout>

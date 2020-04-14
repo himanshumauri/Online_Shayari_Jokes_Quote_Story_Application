@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_row"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/logo"
+        android:id="@+id/rowImage"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Main Title"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:id="@+id/title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize = "20dp"
+            android:textAlignment = "center"
+            android:ellipsize = "marquee"
+            android:fadingEdge = "horizontal"
+            android:marqueeRepeatLimit = "marquee_forever"
+            android:scrollHorizontally = "true"
+            android:textColor = "#FFFFFF"
+            android:text = "Sample Text to test marquee movement"
+            android:singleLine = "true"
+            android:gravity="center_horizontal"
+            android:id="@+id/sampletext"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Story.StoryMain">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="STORY"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:background="#8BC34A"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+<!--___________________Start Category Holder___________________-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scrollbars="vertical">
+            <!-- Start Of Kids Story Section -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_row"
+                android:padding="16dp"
+                android:id="@+id/kidsstory">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/icon_kidsstory"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="KIDS STORY"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="30dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "20dp"
+                        android:textAlignment = "center"
+                        android:ellipsize = "marquee"
+                        android:fadingEdge = "horizontal"
+                        android:marqueeRepeatLimit = "marquee_forever"
+                        android:scrollHorizontally = "true"
+                        android:textColor = "#FFFFFF"
+                        android:text = "#forkids #moralofthestory #educational #story"
+                        android:singleLine = "true"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/kisdkeyword"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!-- End Of Kids Story Section -->
+            <LinearLayout
+                android:id="@+id/motivationalStory"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_row"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/logo"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MOTIVATIONAL"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="30dp"/>
+
+                    <TextView
+                        android:id="@+id/moti_story_key"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "20dp"
+                        android:textAlignment = "center"
+                        android:ellipsize = "marquee"
+                        android:fadingEdge = "horizontal"
+                        android:marqueeRepeatLimit = "marquee_forever"
+                        android:scrollHorizontally = "true"
+                        android:textColor = "#FFFFFF"
+                        android:text = "#motivational #inspirational"
+                        android:singleLine = "true"
+                        android:gravity="center_horizontal"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hindiStory"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_row"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/logo"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="कहानी"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="30dp"/>
+
+                    <TextView
+                        android:id="@+id/hindi_story_key"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "20dp"
+                        android:textAlignment = "center"
+                        android:ellipsize = "marquee"
+                        android:fadingEdge = "horizontal"
+                        android:marqueeRepeatLimit = "marquee_forever"
+                        android:scrollHorizontally = "true"
+                        android:textColor = "#FFFFFF"
+                        android:text = "#hindi #मुंशी_प्रेमचंद #माखनलाल_चतुर्वेदी"
+                        android:singleLine = "true"
+                        android:gravity="center_horizontal"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+<!--___________________End Category Holder___________________-->
+
+
+</LinearLayout>

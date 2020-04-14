@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "539586366561",
+    "firebase_url": "https://nallebache-57e48.firebaseio.com",
+    "project_id": "nallebache-57e48",
+    "storage_bucket": "nallebache-57e48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539586366561:android:7e39d06122fe5a5f9f6e20",
+        "android_client_info": {
+          "package_name": "com.himanshumauri.nallebache"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539586366561-gc0dvqk77roh3r8knl2ckrkkmseta6oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8nlcEsavkYlfbJ61xYCIM4_QLg4kfSi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539586366561-gc0dvqk77roh3r8knl2ckrkkmseta6oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
